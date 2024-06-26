@@ -7,6 +7,7 @@ import { NavBar } from '../../ui/components/NavBar'
 export const AppRouter = () => {
   return (
     <div className='flex'>
+      
 <NavBar/>
 
 
