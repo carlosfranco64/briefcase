@@ -14,7 +14,9 @@ export const HomePage = () => {
   };
 
   return (
-    <div className={`w-full min-h-screen bg-gradient-to-r ${isMode ? "from-blue-200 via-indigo-200 to-purple-200" : "bg-gray-600"} ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16"}`}>
+    <div className={`w-full min-h-screen bg-gradient-to-r ${
+      isMode ? "from-blue-200 via-indigo-200 to-purple-200" : "bg-gray-600"
+    } ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16"} `}>
 
     <Header />
   
@@ -80,6 +82,10 @@ export const HomePage = () => {
               size={30}
             />
           </a>
+
+            {/* <Button label="Check" icon="pi pi-check" /> */}
+
+
         </div>
       </div>
   
