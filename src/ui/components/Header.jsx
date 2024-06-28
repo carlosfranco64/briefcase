@@ -20,7 +20,7 @@ export const Header = () => {
             className={`font text-3xl ${isMode ? "text-blue-800":""} cursor-pointer`}
         />
     </button>
-    <h1 className="ml-12 text-2xl my-4">Portafolio</h1>
+    <h1 className="ml-12 md:ml-0 text-2xl my-4">Portafolio</h1>
 </div>
 
       <div
