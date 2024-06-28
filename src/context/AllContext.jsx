@@ -13,7 +13,7 @@ export const useAll = () => {
 
 export const AllProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMode, setIsMode] = useState(false);
+  const [isMode, setIsMode] = useState(true);
 
   const showMode = () => {
     setIsMode(!isMode);
