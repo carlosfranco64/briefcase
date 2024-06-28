@@ -49,13 +49,13 @@ export const Projets = () => {
   const { isOpen,isMode } = useAll();
   
   return (
-    <section className={`w-full min-h-screen bg-gradient-to-r ${isMode ?" from-blue-200 via-indigo-200 to-purple-200": "bg-gray-600"} ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16"}`}>
+    <section className={`w-full min-h-screen bg-gradient-to-r ${isMode ?" from-blue-200 via-indigo-200 to-purple-200": "bg-gray-600"} ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16 "} `}>
       <Header />
-      <div className={`container px-4 md:px-6 py-12 grid ${isOpen ? "ml-0" : "m-0 md:ml-0"} `}> {/* scroll horizoltal */}
+      <div className={`container px-4 md:px-6 py-12 grid ${isOpen ? "ml-0" : "ml-0 md:ml-0 "}  `}> {/* scroll horizoltal */}
         <div className="mb-8 md:mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-800">Mis Proyectos</h2>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3  ">
 {
   projects.map((project,i)=>(
 

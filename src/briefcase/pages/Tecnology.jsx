@@ -87,7 +87,7 @@ export const Tecnology = () => {
       } ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16"}`}
     >
       <Header />
-      <div className={`container px-4 md:px-6 pt-8 w-full ${isOpen ? "" : "ml-0 md:m-12"} `}>
+      <div className={`container px-4 md:px-6 pt-8 w-full ${isOpen ? "ml-0" : "m-0 md:ml-0"} `}>
         <div className="flex flex-col items-center justify-center space-y-4 text-center  mx-auto ">
           <div className="space-y-2 ">
             <h2
