@@ -13,19 +13,17 @@ export const useAll = () => {
 
 export const AllProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMode, setIsMode] = useState(false)
- 
-const showMode = () => {
+  const [isMode, setIsMode] = useState(false);
 
-  setIsMode(!isMode)
-
-}
+  const showMode = () => {
+    setIsMode(!isMode);
+  };
   const showMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <AllContext.Provider value={{ isOpen, showMenu,isMode,showMode }}>
+    <AllContext.Provider value={{ isOpen, showMenu, isMode, showMode }}>
       {children}
     </AllContext.Provider>
   );

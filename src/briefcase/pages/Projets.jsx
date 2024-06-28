@@ -51,7 +51,7 @@ export const Projets = () => {
   return (
     <section className={`w-full min-h-screen bg-gradient-to-r ${isMode ?" from-blue-200 via-indigo-200 to-purple-200": "bg-gray-600"} ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16"}`}>
       <Header />
-      <div className={`container px-4 md:px-6 py-12 grid ${isOpen ? "ml-auto" : "ml-16"} `}>
+      <div className={`container px-4 md:px-6 py-12 grid ${isOpen ? "ml-auto" : "m-0 md:ml-16"} `}> {/* scroll horizoltal */}
         <div className="mb-8 md:mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-800">Mis Proyectos</h2>
         </div>

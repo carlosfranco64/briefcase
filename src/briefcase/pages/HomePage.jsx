@@ -91,7 +91,7 @@ export const HomePage = () => {
   
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-10 lg:mt-0">
         <img
-          src="/public/portrait-of-a-man-using-a-computer-in-a-modern-office-picture-id1344688156-1.avif"
+          src="/portrait-of-a-man-using-a-computer-in-a-modern-office-picture-id1344688156-1.avif"
           alt="Carlos Franco Castaño"
           className="w-40 sm:w-60 md:w-80 lg:w-96 h-40 sm:h-60 md:h-80 lg:h-96 rounded-full bg-red-500 shadow-lg transform hover:scale-105 transition duration-300 object-cover"
         />
