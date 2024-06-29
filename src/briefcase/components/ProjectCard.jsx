@@ -1,16 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useAll } from "../../context/AllContext";
 import { Button } from "@headlessui/react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { IoEyeSharp } from "react-icons/io5";
+
+import { Accordion, AccordionTab } from 'primereact/accordion';
+        
 
 export const ProjectCard = ({ project }) => {
 
 const {isMode}=useAll()
-
   return (
-    <div>
+    <div className="">
       <div className="relative group overflow-hidden  rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
         <img
           src={`${project.img}`}
@@ -22,12 +23,26 @@ const {isMode}=useAll()
           } p-4 `}>
           <h3 className={`${
               isMode ? "text-gray-700" : "text-white"
-            } font-bold text-xl mb-2 text-black`}>{project.title}</h3>
+            } font-bold text-xl mb-2  `}>{project.title}</h3>
+
+<Accordion activeIndex={1}  >
+
+<AccordionTab  style={isMode & {color:'black'}}  header="Ver mas" className={`${isMode ? "":""}`}>
+
+  <div className={`${isMode ? "":""}`}>
+
           <p className={`${
-              isMode ? "text-gray-700" : "text-white"
-            } text-justify`}>
+            isMode ? "text-gray-700" : "text-gray-700"
+          } text-justify`}>
             {project.description}
           </p>
+
+            </div>
+
+              </AccordionTab>
+            </Accordion>
+
+
           <div className="mt-4 flex gap-2">    
             <Button
               to="/"

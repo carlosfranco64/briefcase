@@ -17,7 +17,7 @@ const projects = [
     img: "img/project2.jpg"
   },
   {
-    title: "administrador de ingresos y egresos",
+    title: "Administrador de ingresos y egresos",
     link:"",
     description: "Esta aplicacion web facilita la gestión de ingresos y egresos mediante categorización detallada. Permite, establecer ganancias descripcion los montos. ofrece una vista clara del flujo financiero. Optimizada para dispositivos móviles y escritorio, ademas proporciona acceso fácil desde cualquier lugar",
     img: "img/project3.jpg"
@@ -55,7 +55,7 @@ export const Projets = () => {
         <div className="mb-8 md:mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-800">Mis Proyectos</h2>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3  ">
+        <div className="grid grid-cols-1 gap-6  sm:grid-cols-2 lg:grid-cols-3  ">
 {
   projects.map((project,i)=>(
 
