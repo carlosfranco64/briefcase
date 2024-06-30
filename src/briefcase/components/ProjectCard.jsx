@@ -15,7 +15,7 @@ const {isMode}=useAll()
       <div className="relative group overflow-hidden  rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
         <img
           src={`${project.img}`}
-          alt=""
+          alt="este proyecto esta en desarrollo"
           className="object-cover w-full h-48"
         />
         <div className={` ${

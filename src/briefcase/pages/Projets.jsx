@@ -7,20 +7,20 @@ const projects = [
   {
     title: "Task App",
     link:"",
-    description: "Task App es una aplicación diseñada para ayudarte a gestionar tus tareas diarias y mejorar tu productividad. Con una interfaz intuitiva y funciones clave, Task App te mantiene organizado y enfocado en tus objetivos personales y profesionales.",
-    img: ""
+    description: "Task App es una aplicación diseñada para ayudarte a gestionar tus tareas diarias y mejorar tu productividad. Con una interfaz intuitiva y funciones clave, Task App te mantiene organizado y enfocado en tus objetivos personales y profesionales. user:",
+    img: "/proyecto_3.jpg"
   },
   {
     title: "Portafolio",
     link:"",
     description: "Mi portafolio como desarrollador fullstack es una colección de proyectos que destacan mi pasión por crear soluciones innovadoras y efectivas tanto en el frontend como en el backend. Cada informacion muestra mi habilidad técnica, capacidad para enfrentar desafíos complejos, trabajar en equipo y entregar productos de alta calidad.",
-    img: "img/project2.jpg"
+    img: "/proyecto_1.jpg"
   },
   {
     title: "Administrador de ingresos y egresos",
     link:"",
     description: "Esta aplicacion web facilita la gestión de ingresos y egresos mediante categorización detallada. Permite, establecer ganancias descripcion los montos. ofrece una vista clara del flujo financiero. Optimizada para dispositivos móviles y escritorio, ademas proporciona acceso fácil desde cualquier lugar",
-    img: "img/project3.jpg"
+    img: "/proyecto_2.jpg"
   },
   {
     title: "Project 4",
