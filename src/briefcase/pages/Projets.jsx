@@ -23,23 +23,23 @@ const projects = [
     img: "/proyecto_2.jpg"
   },
   {
-    title: "Project 4",
+    title: "Rick and Morty",
     link:"",
     description: "Vestibulum sodales justo ut ante consectetur, eget hendrerit augue pharetra. Nullam id urna sed lacus.",
-    img: "img/project4.jpg"
+    img: "/proyecto_4.jpg"
   },
-  {
-    title: "Project 5",
-    link:"",
-    description: "Fusce nec nisi ac est auctor placerat. Ut scelerisque diam vel risus mattis, nec ultricies nisi aliquet.",
-    img: "img/project5.jpg"
-  },
-  {
-    title: "Project 6",
-    link:"",
-    description: "Suspendisse ut sapien at purus vehicula pellentesque non eget sem. Cras a leo ut elit malesuada blandit.",
-    img: "img/project6.jpg"
-  }
+  // {
+  //   title: "Project 5",
+  //   link:"",
+  //   description: "Fusce nec nisi ac est auctor placerat. Ut scelerisque diam vel risus mattis, nec ultricies nisi aliquet.",
+  //   img: "img/project5.jpg"
+  // },
+  // {
+  //   title: "Project 6",
+  //   link:"",
+  //   description: "Suspendisse ut sapien at purus vehicula pellentesque non eget sem. Cras a leo ut elit malesuada blandit.",
+  //   img: "img/project6.jpg"
+  // }
 ];
 
 export default projects;
