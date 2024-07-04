@@ -1,12 +1,13 @@
 import { AppRouter } from "./briefcase/routes/AppRouter";
-import { AllProvider } from "./context/AllContext";
+import {  useAll } from "./context/AllContext";
 
 export const BriefcaseApp = () => {
+  const {isMode}=useAll()
   return (
-    <>
-      <AllProvider>
+    <div className={`${
+      isMode ? "bg-blue-200" : "bg-gray-600"
+    }`}>
         <AppRouter />
-      </AllProvider>
-    </>
+    </div>
   );
 };

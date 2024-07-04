@@ -14,7 +14,7 @@ export const Header = () => {
     >
       
       <div className="flex items-center gap-4 ">
-    <button className={` p-2 rounded-full ${isMode ? " bg-blue-100": " bg-gray-800"} fixed left-4`}>
+    <button className={`z-10 p-2 rounded-full ${isMode ? " bg-blue-100": " bg-gray-800"} fixed left-4`}>
         <TfiMenu 
             onClick={showMenu}
             className={`font text-3xl ${isMode ? "text-blue-800":""} cursor-pointer`}

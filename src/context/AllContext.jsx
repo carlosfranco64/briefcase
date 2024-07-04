@@ -5,7 +5,7 @@ export const AllContext = createContext();
 export const useAll = () => {
   const context = useContext(AllContext);
   if (!context) {
-    throw new Error(" useAll must be within an TaskAll");
+    throw new Error(" useAll must be within an taskAll");
   }
 
   return context;

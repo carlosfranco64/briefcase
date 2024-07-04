@@ -1,6 +1,9 @@
+import { useEffect } from "react";
 import { useAll } from "../../context/AllContext";
 import { Header } from "../../ui/components/Header";
 import { ProjectCard } from "../components/ProjectCard";
+import { useSpring, animated } from "react-spring";
+
 
 
 const projects = [
@@ -51,16 +54,31 @@ export default projects;
 
 export const Projets = () => {
   const { isOpen,isMode } = useAll();
+
+  const [props, set] = useSpring(() => ({
+    opacity: 0,
+    transform: "translateY(-20px)",
+    config: { tension: 200, friction: 10 },
+  }));
+
+  useEffect(() => {
+    set({ opacity: 1, transform: "translateY(0)" });
+  }, [set]);
   
   return (
     <section className={`w-full min-h-screen bg-gradient-to-r ${isMode ?" from-blue-200 via-indigo-200 to-purple-200": "bg-gray-600"} ${isOpen ? "ml-0 sm:ml-52" : "ml-0 sm:ml-16 "} `}>
       <Header />
       <div className={`container px-4 md:px-6 py-12 grid ${isOpen ? "ml-0" : "ml-0 md:ml-0 "}  `}> {/* scroll horizoltal */}
-        <div className="mb-8 md:mb-12">
-          <h2 className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center ${
-          isMode ? "text-gray-700" : "text-white"
-        }`}>Mis Proyectos</h2>
-        </div>
+      <div className="mb-8 md:mb-12">
+      <animated.h2
+        style={props}
+        className={`text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center transition-transform duration-300 ease-in-out ${
+          isMode ? "text-gray-700 hover:text-gray-500" : "text-white hover:text-gray-300"
+        }`}
+      >
+        Mis Proyectos
+      </animated.h2>
+    </div>
         <div className="grid grid-cols-1 gap-6  sm:grid-cols-2 lg:grid-cols-3  ">
 {
   projects.map((project,i)=>(
