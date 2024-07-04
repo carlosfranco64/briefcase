@@ -68,7 +68,7 @@ export const HomePage = () => {
             />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/carlosfranco64"
             target="_blank"
             rel="noopener noreferrer"
             className="my-auto"

@@ -45,7 +45,7 @@ export const About = () => {
   
         <div className="flex justify-center space-x-4 sm:space-x-6 text-2xl sm:text-3xl text-gray-600">
           <a
-            href="https://linkedin.com/in/tuusuario"
+            href="https://www.linkedin.com/in/carlos-franco-casta%C3%B1o-47456a264/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -54,7 +54,7 @@ export const About = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/carlosfranco64"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

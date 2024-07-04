@@ -51,7 +51,7 @@ export const Tecnology = () => {
     {
       title: "Git",
       description:
-        "Experto en el uso de Git para el control de versiones y la colaboración en proyectos de desarrollo.",
+        "Experto en el uso de GitHub para  la colaboración en proyectos de desarrollo.",
       icon: FaGithub,
       styleIcon: "bg-white text-gray-800 rounded-full",
     },

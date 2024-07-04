@@ -5,26 +5,30 @@ import { ProjectCard } from "../components/ProjectCard";
 
 const projects = [
   {
-    title: "Task App",
-    link:"",
+    title: "Task App - (En desarrollo)",
+    linkEyes:"ggg",
+    linkGithub:"https://github.com/carlosfranco64/",
     description: "Task App es una aplicación diseñada para ayudarte a gestionar tus tareas diarias y mejorar tu productividad. Con una interfaz intuitiva y funciones clave, Task App te mantiene organizado y enfocado en tus objetivos personales y profesionales. user:",
     img: "/proyecto_3.jpg"
   },
   {
     title: "Portafolio",
-    link:"",
+    linkEyes:"https://devcarlosfranco.netlify.app/",
+    linkGithub:"https://github.com/carlosfranco64/briefcase.git",
     description: "Mi portafolio como desarrollador fullstack es una colección de proyectos que destacan mi pasión por crear soluciones innovadoras y efectivas tanto en el frontend como en el backend. Cada informacion muestra mi habilidad técnica, capacidad para enfrentar desafíos complejos, trabajar en equipo y entregar productos de alta calidad.",
     img: "/proyecto_1.jpg"
   },
   {
     title: "Administrador de ingresos y egresos",
-    link:"",
+    linkEyes:"https://fluffy-pastelito-7c85ce.netlify.app",
+    linkGithub:"https://github.com/carlosfranco64/admin-money.git",
     description: "Esta aplicacion web facilita la gestión de ingresos y egresos mediante categorización detallada. Permite, establecer ganancias descripcion los montos. ofrece una vista clara del flujo financiero. Optimizada para dispositivos móviles y escritorio, ademas proporciona acceso fácil desde cualquier lugar",
     img: "/proyecto_2.jpg"
   },
   {
     title: "Rick and Morty",
-    link:"",
+    linkEyes:"https://sensational-treacle-3c13b3.netlify.app/",
+    linkGithub:"https://github.com/Carlosfranco17/entregable3.git",
     description: "Vestibulum sodales justo ut ante consectetur, eget hendrerit augue pharetra. Nullam id urna sed lacus.",
     img: "/proyecto_4.jpg"
   },
