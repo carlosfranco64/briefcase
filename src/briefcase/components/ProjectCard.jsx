@@ -21,19 +21,23 @@ export const ProjectCard = ({ project }) => {
           <h3 className={`${isMode ? "text-gray-700" : "text-white"} font-bold text-xl mb-2`}>
             {project.title}
           </h3>
+          <Accordion activeIndex={1}  >
 
-          <Accordion activeIndex={1}>
-            <AccordionTab
-              header="Ver más"
-              className={`${isMode ? "text-gray-700" : "text-white"}`}
-            >
-              <div>
-                <p className={`${isMode ? "text-gray-700" : "text-gray-700"} text-justify`}>
-                  {project.description}
-                </p>
-              </div>
-            </AccordionTab>
-          </Accordion>
+<AccordionTab  style={isMode & {color:'black'}}  header="Ver mas" className={`${isMode ? "":""}`}>
+
+  <div className={`${isMode ? "":""}`}>
+
+          <p className={`${
+            isMode ? "text-gray-700" : "text-gray-700"
+          } text-justify`}>
+            {project.description}
+          </p>
+
+            </div>
+
+              </AccordionTab>
+            </Accordion>
+
 
           <div className="mt-4 flex gap-2">
             <Link

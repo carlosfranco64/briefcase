@@ -27,13 +27,13 @@ export const Tecnology = () => {
       icon: FaNodeJs,
       styleIcon: "text-green-500",
     },
-    // {
-    //   title: "MongoDB",
-    //   description:
-    //     "Experto en el uso de MongoDB para el almacenamiento y gestión de datos en aplicaciones web.",
-    //   icon: DiMongodb,
-    //   styleIcon: "text-green-500 rounded-full bg-green-900 p-1",
-    // },
+    {
+      title: "MongoDB",
+      description:
+        "Experto en el uso de MongoDB para el almacenamiento y gestión de datos en aplicaciones web.",
+      icon: DiMongodb,
+      styleIcon: "text-green-500 rounded-full bg-green-900 p-1",
+    },
     {
       title: "SQL",
       description:
