@@ -49,7 +49,7 @@ export const Tecnology = () => {
       styleIcon: "text-orange-500",
     },
     {
-      title: "Git",
+      title: "GitHub",
       description:
         "Experto en el uso de GitHub para  la colaboración en proyectos de desarrollo.",
       icon: FaGithub,
